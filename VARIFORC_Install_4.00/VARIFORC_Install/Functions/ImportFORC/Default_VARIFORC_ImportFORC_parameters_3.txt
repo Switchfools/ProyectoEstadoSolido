@@ -1,0 +1,23 @@
+Input parameters for package VARIFORC_ImportFORC; (version 4.00).
+
+INPUT 01. Field and magnetization column numbers ..................; 1, 2,","
+INPUT 02. FORC protocol: saturation field .........................; Automatic
+INPUT 03. FORC protocol: Field slew rate ..........................; Automatic
+INPUT 04. FORC protocol: Averaging time of FORC measurements ......; Automatic
+INPUT 05. FORC protocol: Pause at FORC reversal field .............; Automatic
+INPUT 06. FORC protocol: Pause at FORC calibration field ..........; Automatic
+INPUT 07. FORC protocol: Pause at FORC saturation field ...........; Automatic
+INPUT 08. Correction options for first FORC points ................; 3, Automatic
+INPUT 09. Correction options for last FORC points .................; 5, Automatic
+INPUT 10. FORC smoothing factor for error calculation .............; 3
+INPUT 11. Smoothing factor for drift calculation ..................; 3
+INPUT 12. Lower limits for outlier detection/replacement ..........; 4.5, 4.5
+INPUT 13. Clipping limit for residuals color scale ................; 4.0
+INPUT 14. FORC plotting options ...................................; 1,1
+INPUT 15. Field units and calibration .............................; Oe, 1, Oe
+INPUT 16. Normalization factor(s) and unit ........................; 1, none
+INPUT 17. Magnetization units and calibration .....................; emu, 1, Am2/kg
+INPUT 18. High-field limit for paramagnetic correction ............; 0.1
+INPUT 19. High-field model constraint .............................; None
+INPUT 20. Approach-to-saturation exponent .........................; 2.2
+INPUT 21. Options for lower branch subtraction ....................; Hysteresis

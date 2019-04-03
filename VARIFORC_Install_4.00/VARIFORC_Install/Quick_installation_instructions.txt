@@ -1,0 +1,19 @@
+1. REQUIREMENTS
+
+Before installing VARIFORC, you must have a running version of Wolfram Mathematica or Wolfram CDF Player Pro.
+See www.wolfram.com/mathematica/ and www.wolfram.com/player-pro/ for details.
+
+Mathematica and Wolfram CDF Player Pro can be installed on Windows, Linux, and Macintosh.
+
+Unlimited Mathematica student licenses cost 140 Eur or 150 US$ (www.wolfram.com/mathematica/students-individuals.php/)
+CDF Player Pro licenses (for all) cost 205 Eur or 205 US$ (www.wolfram.com/view/playerpro/).
+
+
+2. INSTALLATION
+
+Locate the file "VARIFORC_Install.cdf" in the same directory of this document and open it.
+
+In the top menu, go to "Evaluation" -> "Evaluate Notebook".
+
+The message "VARIFORC installation ended successfully..." confirms that VARIFORC has been correctly installed.
+If you experience problems, check the writing permission of your home directory (last line of the output message).

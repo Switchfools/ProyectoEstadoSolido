@@ -1,0 +1,5 @@
+Starting directories used by package VARIFORC_CalculateFORC; (version 3.00).
+
+DIRECTORY 1. Output file  ; 
+DIRECTORY 2. Input file 1 ; 
+DIRECTORY 3. Input file 2 ; 

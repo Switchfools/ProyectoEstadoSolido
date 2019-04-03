@@ -1,0 +1,104 @@
+VARIFORC v.4.00.  Reversal coercivity distribution f(x) = 1/2 dM(Hr,H)/dHr at Hr = H = -x.
+
+Source file
+dataf$25959
+
+Field unit, magnetization unit, coercivity distribution unit
+Oe,emu,emu/(Oe)
+
+Mean field step of FORC measurements, first point offset, field measurement regularization
+7.23543010752688,-4.993061393241167,True
+
+Last FORC Hr
+-266.98699999999997
+
+Horizontal range of grid points (Hcmin, Hcmax)
+3.6,133.2
+
+Vertical range of grid points (Hbmin, Hbmax)
+-129.60000000000002,93.60000000000001
+
+Grid dimensions (horizontal, vertical)
+19,32
+
+Grid mesh size
+7.2
+
+Grid origin (Hc, Hb)
+3.6,0
+
+Weighted margin of regression rectangles
+2
+
+Effective horizontal smoothing factor, increase rate
+4.,0.07
+
+Effective vertical smoothing factor, increase rate
+4.,0.07
+
+Effective horizontal smoothing factor limit, center of limit region at Hc equal to, intrinsic half-width of limit region
+None,0.,0.
+
+Effective vertical smoothing factor limit, center of limit region at Hb equal to, intrinsic half-width of limit region
+4.,0.,0
+
+Effective diagonal smoothing factor limit under first derivative maxima of hysteresis, center of limit regions at |Hr|=|H| equal to, intrinsic half-width of limit regions
+4.,83.39649999999999,26.760556871999995
+
+Effective diagonal smoothing factor limit, center of limit region at H equal to, intrinsic half-width of limit region
+4.,0.,0
+
+Effective diagonal smoothing factor limit, center of limit region at Hr equal to, intrinsic half-width of limit region
+None,None,None
+
+Effective smoothing factor and proportionality constant used for mean field correction
+None,None
+
+Saturation magnetization from FORC measurements and standard error
+0.0001487478376125341,0.0007728239562914116
+
+Saturation remanence from FORC measurements and standard error
+0.00018604670268967133,5.352119316040726e-7
+
+Saturation remanence from backfield demagnetization curve and standard error
+0.00020261123240327542,9.941741258681875e-6
+
+Coercivity distribution on linear field scale (Hc, f(Hc), SE of f)
+-46.8,2.0873025028461133e-7,6.523318884074665e-8
+-39.6,2.043910143145991e-7,6.892702033648269e-8
+-32.4,1.975663751895014e-7,7.215639075574851e-8
+-25.2,1.6807901297502815e-7,6.9843311151465e-8
+-18.,1.639838973474158e-7,6.931415622321296e-8
+-10.8,1.5487446165085249e-7,7.044588356645387e-8
+-3.6,1.0583997438269543e-7,6.74225996032149e-8
+0.,8.822384919587948e-8,6.858944717736948e-8
+3.6,7.786679168589205e-8,7.26136814756735e-8
+10.8,8.351743080201467e-8,6.557219663710696e-8
+18.,1.0899937565753572e-7,6.830273987604968e-8
+25.200000000000003,1.0507925622595915e-7,6.960290116587738e-8
+32.4,1.025802045402445e-7,9.828149753481932e-8
+39.6,3.181554264319554e-7,1.8935937312991423e-7
+46.800000000000004,7.312361840376884e-7,2.939323591871035e-7
+54.,1.347899022916138e-6,3.4431622990649686e-7
+61.2,2.140398003315951e-6,3.041999628683493e-7
+68.39999999999999,2.6693380226649603e-6,4.095598968472631e-7
+75.6,3.040207315630047e-6,5.776940972027107e-7
+82.8,3.2987999939160703e-6,6.237678704363253e-7
+90.,3.4404958947635905e-6,5.257541959357272e-7
+97.2,3.346131162854588e-6,3.647805109526107e-7
+104.39999999999999,2.9135384787843967e-6,3.256766180679109e-7
+111.6,1.978620882099982e-6,3.980047880620908e-7
+118.8,9.809787274230807e-7,3.6779004919996474e-7
+126.,3.454086735352115e-7,2.02765122952211e-7
+133.2,2.8602110195884028e-9,8.580293103538868e-8
+140.4,-3.9234560211908955e-8,6.67338092518079e-8
+147.6,-3.9844989500533444e-8,6.604594320627457e-8
+154.8,-4.888949629590377e-9,6.673623931086304e-8
+162.,1.007754124033439e-8,6.174162595529141e-8
+169.2,-3.48303423289779e-8,6.103948077581781e-8
+176.4,-5.318817020926132e-8,5.997646602180263e-8
+183.6,-4.022346268917827e-8,5.97316007232629e-8
+190.8,-2.3311740011801512e-8,5.974452194915269e-8
+198.,-1.185551799466889e-8,6.166073698446766e-8
+205.2,1.0289310847324757e-8,6.294483185104935e-8
+212.4,4.365993174214983e-8,6.419521834001672e-8

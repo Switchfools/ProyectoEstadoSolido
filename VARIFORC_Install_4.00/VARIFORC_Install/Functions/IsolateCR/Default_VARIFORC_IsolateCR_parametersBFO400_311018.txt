@@ -1,0 +1,18 @@
+Input parameters for package VARIFORC_CalculateCR; (version 2.04).
+
+INPUT 01. Hc-range of seed vertical profile ......................; wide
+INPUT 02. Hb-range parameters of seed vertical profile ...........; 0,0.5,500
+INPUT 03. Extra central ridge margin .............................; 0.1
+INPUT 04. Weight factor for background model .....................; Automatic
+INPUT 05. Maximum freedom degree of central ridge model ..........; 3
+INPUT 06. Profile selection ......................................; All
+INPUT 07. Confidence interval factor for distribution plots.......; 2.
+INPUT 08. Scale factor for central ridge coercivity distribution .; 1.
+INPUT 09. Clip negative coercivity distribution values ...........; Yes
+INPUT 10. Significance threshold of signal-to-noise ratio ........; 3.
+INPUT 11. FORC diagram ticks specification .......................; Automatic
+INPUT 12. Vertical exaggeration of central ridge FORC diagram ....; 3.
+INPUT 13. Color scale saturation .................................; 0.9
+INPUT 14. Fraction of FORC diagram pixels with clipped colors ....; 0.01
+INPUT 15. Calculate single-domain reversible FORC background .....; No
+

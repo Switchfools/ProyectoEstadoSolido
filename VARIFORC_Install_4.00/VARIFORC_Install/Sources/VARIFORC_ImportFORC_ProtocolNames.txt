@@ -1,0 +1,8 @@
+FORC protocol names to be recognized automatically by VARIFORC_ImportFORC; (version 3.00).
+
+PARAMETER 01. Saturation field ...........; HSat
+PARAMETER 02. Field slew rate ............; SlewRate
+PARAMETER 03. Measurement averaging time .; Averaging time
+PARAMETER 04. Pause at reversal field ....; PauseNtl, PauseRvrsl
+PARAMETER 05. Pause at calibration .......; PauseCal
+PARAMETER 06. Pause at saturation ........; PauseSat

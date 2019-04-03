@@ -1,0 +1,5 @@
+Starting directories used by package VARIFORC_CalculateFORC; (version 4.00).
+
+DIRECTORY 01. Import parameters .; 
+DIRECTORY 02. Measurement file ..; 
+DIRECTORY 03. Output files ......; 

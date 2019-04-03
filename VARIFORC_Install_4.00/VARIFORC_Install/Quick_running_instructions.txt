@@ -1,0 +1,78 @@
+MANUALS
+
+You can download detailed VARIFORC manuals and examples from the VARIFORC homepage
+www.conrad-observatory.at/cmsjoomla/de/download/category/5-variforc (or google VARIFORC home).
+
+You can run VARIFORC in assisted mode without any previous knowledge by following the instructions below.
+VARIFORC processing is fundamentally divided into three steps:
+
+1. Import single or multiple FORC measurements and pre-process them (unit conversion, normalization, outlier
+and artifact removal, drift correction, paramagnetic correction).
+
+2. Process FORC measurements to obtain a FORC diagram and related coercivity distributions.
+
+3. Add/change plotting options (e.g. contour lines, significance limits, color scale)
+
+
+Step 1. IMPORT FORC MEASUREMENTS
+
+This is done with ImportFORC. From the directory where this document is stored, navigate to:
+Functions/ImportFORC/VARIFORC_ImportFORC.cdf
+
+Open the document, which contain two command lines. Place the cursor on the first command line, and press
+"SHIFT"+"Enter" to compile the source code in Mathematica. A confirmation text will appear below.
+
+You are now ready to go. Place the cursor on the first command line, and press "SHIFT"+"Enter" to start
+ImportFORC.
+
+A welcome window asks how to run ImportFORC. If you are a new to VARIFORC, accept the default settings and
+click "OK". An assistant will help you through processing step by step. Just follow the instructions and
+interact with the prompt windows. If you are an experienced user, you can run ImportFORC in different modes.
+For instance, you can process measurements with options stored from previous runs. In this case, ImportFORC
+does not require any further input from you. 
+
+Your processing options are stored for later use on similar measurements, and pre-processed measurements are
+ready for Step 2.
+
+ImportFORC can import and stack multiple measurements for noise reduction in case of weak samples.
+If you are a new to VARIFORC, start with a single file. Your processing options will be stored and you can
+recall them in the next run, where you can upload all measurements and process them automatically with the
+stored options.
+
+
+Step 2. PROCESS FORC MEASUREMENTS
+
+This is done with ImportFORC. From the directory where this document is stored, navigate to:
+Functions/ImportFORC/VARIFORC_ImportFORC.cdf
+
+Copy this file to a convenient location (e.g. where your measurements are stored).
+Open the document, which contain two command lines. Place the cursor on the first command line, and press
+"SHIFT"+"Enter" to compile the source code in Mathematica. A confirmation text will appear below.
+
+You are now ready to go. Place the cursor on the first command line, and press "SHIFT"+"Enter" to start
+ImportFORC.
+
+A welcome window asks how to run ImportFORC. If you are a new to VARIFORC, accept the default settings and
+click "OK". An assistant will help you through processing step by step. Just follow the instructions and
+interact with the prompt windows. If you are an experienced user, you can run CalculateFORC in different modes.
+For instance, you can process measurements with options stored from previous runs. In this case, CalculateFORC
+does not require any further input from you. 
+
+Your processing options are stored for later use on similar measurements. Your FORC diagram is ready. You can
+select it in the Mathematica or CDF notebook and save it as a graphics. Several plotting options (e.g. contour
+lines, color scales) are available with PlotFORC (see step 3).
+
+Step 3. PLOT FORC DIAGRAMS WITH CUSTOM OPTIONS
+
+This is done with PlotFORC. From the directory where this document is stored, navigate to:
+Functions/ImportFORC/VARIFORC_ImportFORC.cdf
+where you also find the file "Default_VARIFORC_PlotFORC_parameters.txt".
+
+Copy both files to a convenient location (e.g. where your measurements are stored).
+
+An assistent is not yet ready for PlotFORC, so you will be asked to upload the processing parameters from a file.
+Default parameters in "Default_VARIFORC_PlotFORC_parameters.txt" are a good starting point. You can change them
+following the instructions in the VARIFORC manual.
+
+When you have set your processing parameters, open "VARIFORC_ImportFORC.cdf", place the cursor on the first
+command line, and press "SHIFT"+"Enter" to start ImportFORC.

@@ -1,0 +1,23 @@
+Input parameters for package VARIFORC_PlotFORC; (version 3.00).
+
+INPUT 01. Plotted Hc-range .....................; 0,105
+INPUT 02. Plotted Hb-range .....................; -45,45
+INPUT 03. Diagonal FORC space limits ...........; None
+INPUT 04. FORC unit factor .....................; Automatic
+INPUT 05. Color scale range ....................; Automatic
+INPUT 06. Color function specifications ........; Iridescent
+INPUT 07. Expanded color range option ..........; Automatic
+INPUT 08. Field ticks parameters ...............; Automatic
+INPUT 09. Vertical exaggeration factor .........; 1
+INPUT 10. Color bar range ......................; Automatic
+INPUT 11. Color bar normalization ..............; No
+INPUT 12. Color bar ticks ......................; Automatic
+INPUT 13. Color bar vertical stretch ...........; 1
+INPUT 14. Contour specifications ...............; 10
+INPUT 15. Contour spline type ..................; BSpline, 100
+INPUT 16. Exclusion limit for short contours ...; 0.2
+INPUT 17. Contours color .......................; gray
+INPUT 18. Significance contour specifications ..; 3,All
+INPUT 19. Significance contour color ...........; red
+INPUT 20. FORC diagram export format ...........; PDF
+INPUT 21. Vertical profile normalization .......; No

@@ -1,0 +1,6 @@
+Initial , 1, False, True
+INPUT 01, 1, 2, ","
+INPUT 15, Null, 1, Null
+INPUT 16, 1, none
+INPUT 17, Null, 1, Null
+Cleaning, 1, False, "3.0"

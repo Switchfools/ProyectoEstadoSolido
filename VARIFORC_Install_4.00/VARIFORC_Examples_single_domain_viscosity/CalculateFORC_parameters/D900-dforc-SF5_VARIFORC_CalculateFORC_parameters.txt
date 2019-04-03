@@ -1,0 +1,27 @@
+Input parameters for package VARIFORC_CalculateFORC; (version 2.0).
+
+INPUT 01. Source data type ..............................................; DFORC
+INPUT 02. Output function ...............................................; FORC
+INPUT 03. Horizontal range of output FORC space .........................; 0,0.052
+INPUT 04. Vertical range of output FORC space ...........................; -0.045,0.032
+INPUT 05. Trim factor of lower diagonal limit ...........................; 0
+INPUT 06. Output mesh size ..............................................; 0.00025
+INPUT 07. Output grid origin ............................................; Automatic
+INPUT 08. Regularize field measurements .................................; No
+INPUT 09. Weighted margin of polynomial regression rectangles ...........; 2
+INPUT 10. Horizonal smoothing specifications ............................; 5
+INPUT 11. Vertical smoothing specifications .............................; 5
+INPUT 12. Horizontal smoothing factor limit at given Hc ( | ) ...........; None
+INPUT 13. Vertical smoothing factor limit at given Hb ( - ) .............; None
+INPUT 14. Diagonal smoothing factor limit near coercive fields ( / \ ) ..; None
+INPUT 15. Diagonal smoothing factor limit at given H  ( \ ) .............; None
+INPUT 16. Diagonal smoothing factor limit at given Hr ( / ) .............; None
+INPUT 17. Mean field correction parameters ..............................; None
+INPUT 18. Significance threshold of signal-to-noise ratio ...............; 3
+INPUT 19. Error matrix size limit .......................................; 2000
+INPUT 20. Outlier detection threshold ...................................; 3
+INPUT 21. Clip negative coercivity distribution values ..................; Yes
+INPUT 22. Confidence interval of coercivity distribution plots ..........; 2
+INPUT 23. FORC plot ticks specifications ................................; 0.05,5
+INPUT 24. FORC diagram color saturation .................................; 0.95
+INPUT 25. Fraction of FORC diagram pixels with clipped colors ...........; 0.01
